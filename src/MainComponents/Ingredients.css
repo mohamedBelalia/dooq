@@ -1,0 +1,145 @@
+:root{
+    --colorOne :#A7C584 ;
+    --colorTwo :#6B8A47 ;
+    --colorThree :#EAE3C0 ;
+    --colorFour :#F6C915 ;
+  }
+
+.to-center-ing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ingredients{
+    padding-top:100px ;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.ingredients p.category-title{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #474747;
+}
+.ingredients h1{
+    text-transform: uppercase;
+    color: #727272;
+}
+.ingredients ul{
+    display: flex;
+    height: 300px;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    list-style: decimal;
+}
+.ingredients ul li{
+    font-size: 17px;
+    font-weight: bolder;
+    color: #006215;
+    
+}
+.ingred-div{
+    width: 45%;
+    height: 50px;
+    background-color: var(--colorOne);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-instru{
+    max-width: 100%;
+}
+
+.image-meal{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 10px;
+}
+@media (max-width:990px){
+    .image-meal{
+        width: 300px;
+        height: 400px;
+    }
+}
+.image-meal div{
+    width: 300%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.424);
+}
+.image-meal img{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.same-catego{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.btn-more{
+    background-color: var(--colorTwo);
+    border: solid #003b0d 1px;
+    border-radius: 10px;
+    color: white;
+}
+
+.sameCategory{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.sameCategory .categoCart{
+    width: 290px;
+    height: 350px;
+    background-color: var(--colorOne);
+    border-radius: 10px;
+}
+
+.sameCategory .categoCart img{
+    border-radius: 10px;
+}
+.sameCategory .categoCart h4{
+    font-size:20px ;
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

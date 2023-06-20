@@ -1,0 +1,74 @@
+.cart-container{
+    padding-top:100px ;
+    background-color: rgb(207, 230, 184);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-container .meal-card{
+    width: 50%;
+    height: 150px;
+    border-bottom: solid black 1px;
+    /* margin-bottom: 60px; */
+    border-left: solid 8px rgb(33, 87, 0);
+    background-color: white;
+    display: flex;  
+    
+    justify-content: space-between;
+}
+.cart-container .meal-card .image-meal{
+    width: 30%;
+    height: 100%;
+}
+.cart-container .meal-card .image-meal img{
+    height: 70%;
+    width: 70%;
+    border-radius:50%;
+}
+.cart-container .meal-card .details-meal{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+}
+
+.cart-container .meal-card .details-meal h4{
+    font-size:17px ;
+    color: grey;
+}
+.cart-container .meal-card .details-meal h2{
+    font-size:23px;
+}
+
+.btn-price-meal{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+.btn-price-meal h3{
+    color: rgb(29, 102, 52);
+}
+
+.btn-price-meal button{
+     border: none;
+    border: 1px solid transparent;
+    background-color: green;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.btn-price-meal button:hover{
+    border: 1px solid green ;
+    background-color: transparent;
+    color: green;
+}

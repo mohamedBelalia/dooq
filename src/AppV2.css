@@ -1,0 +1,371 @@
+
+:root{
+    --colorOne :#A7C584 ;
+    --colorTwo :#6B8A47 ;
+    --colorThree :#EAE3C0 ;
+    --colorFour :#F6C915 ;
+  }
+.Menu{
+    height: auto;
+    width: 100%;
+    padding-bottom: 80px;
+}
+.Menu .container{
+    padding-top: 100px;
+}
+.menu-presentation{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--colorTwo);
+    border-radius: 10px;
+}
+.menu-presentation div:first-child{
+    width: 50%;
+    height: 200px;
+    color: white;
+}
+.menu-presentation div:first-child p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.menu-presentation img{
+    width: 200px;
+}
+@media (max-width:990px){
+    .menu-presentation{
+        padding: 20px;
+    }
+    .menu-presentation div:first-child{
+        width: 100%;
+        text-align: center;
+    }
+    .chef-img{
+        display: none;
+    }
+    .menu-presentation div:first-child p{
+        font-size: 16px;
+    }
+}
+.menu-body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding-top: 70px;
+}
+
+.menu-filter{
+    padding-top: 20px;
+    height: 250px;
+    background-color: #e8e8e89f;
+    border-radius:10px;
+
+}
+
+.menu-filter .filter-items{
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+.menu-filter .filter-items select{
+    width: 100%;
+    height: 40px;
+    background-color: var(--colorOne);
+    border: solid green 1px;
+    color: rgb(31, 65, 31);
+    cursor: pointer;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.menu-filter .filter-items label{
+    font-size:20px;
+    color: #265100;
+    margin-bottom: 7px;
+}
+
+@media (max-width:990px){
+    .menu-body{
+        display: flex;
+        flex-direction: column;
+        width: 105%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu-filter {
+        width: 200%;
+    }
+    .menu-body{
+        flex-direction: row;
+    }
+    
+}
+
+
+.menu-result{
+    padding: 20px;
+}
+.menu-result span{
+    color: #387007;
+}
+.menu-result .all-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    gap: 20px;
+}
+.menu-card .meal-img{
+    width: 100%;
+}
+.menu-card .meal-img img{
+    border-radius: 10px 10px 0 0;
+}
+
+.menu-card .meal-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+}
+.menu-card div:last-child{
+    display: flex;
+    justify-content: end;
+
+}
+.menu-card button{
+    width: 50%;
+    height: 40px;
+    background-color: var(--colorOne);
+    color: rgb(31, 65, 31);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    
+}
+
+.menu-card button:hover{
+    border: 2px solid rgb(31, 65, 31);
+}
+.menu-card{
+    width: 250px;
+    height: 340px;
+    border-radius:10px;
+    padding: 10px;
+    box-shadow: 0px -1px 8px 8px rgba(0,0,0,0.07);
+    -webkit-box-shadow: 0px -1px 8px 8px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0px -1px 8px 8px rgba(0,0,0,0.07);
+}
+@media (max-width:990px){
+    .menu-card {
+        width: 350px;
+        height: 350px;
+    }
+   
+}
+.menu-card .meal-img{
+    height: 55%;
+}
+.menu-card img{
+    width: 100%;
+    height: 100%;
+}
+
+.meal-text h3{
+    font-size: 20px;
+}
+.cards-top{
+    background-color: #e8e8e89f;
+    border-radius: 10px;
+    padding: 30px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:990px){
+    .cards-top{
+        height: 120px;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 2px;
+    }
+}
+.search-btn{
+    background-color:var(--colorOne);
+    color: rgb(31, 65, 31);
+    height: 40px;
+    border: 2px solid transparent;
+    width: 200px;
+    border-radius: 10px;
+}
+.search-btn:hover{
+    border: 2px solid rgb(31, 65, 31);
+}
+.card-btns{
+    width: 100%;
+}
+.card-btns button{
+    width: 150px;
+}
+
+
+/* -------------------------------ABOUT------------------------- */
+.About {
+    padding-top: 150px;
+    height: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.title-about h1{
+    width: 500px;
+    font-weight: bold;
+}
+.title-about button{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: solid green 1px;
+    background-color: var(--colorOne);
+}
+.About .goals-about h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.About .about-body{
+    height: auto;
+    width: 110%;
+    padding-top: 180px;
+    margin-bottom: 20px;
+}
+.About .about-body div:last-child{
+        height: 600px;
+        display: flex;
+        justify-content: center;
+}
+.About .about-body div:last-child img{
+    height: 100%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.About .about-body .goals-about{
+    padding-top: 100px;
+    
+}
+
+.About .about-body .goals-about .goal-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 440px;
+    width: 300px;
+    justify-content: space-between;
+}
+.About .about-body .goals-about .goal-1{
+    background-color: var(--colorTwo);
+    padding-bottom:20px ;
+}
+.About .about-body .goals-about .goal-1 div{
+    border: #265100 solid 1px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--colorOne);
+    padding: 10px;
+    border-radius: 10px;
+}
+.About .about-body .goals-about .goal-1 div h5{
+    text-align: center;
+}
+.About .about-body .goals-about .goal-1 div img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.contacts{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts img{
+    width: 50px;
+    cursor: pointer;
+}
+@media (max-width:990px){
+    .title-about h1{
+        width: 400px;
+        text-align: center;
+    }
+    .title-about button{
+        width: 100%;
+    }
+    .contacts{
+        width: 50%;
+    }
+    .About .about-body .goals-about .goal-1 div{
+        height: 170px;
+        width: 170px;
+    }
+    .div-img-about{
+        margin-top: 0px;
+        background-color: var(--colorTwo);
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .About .about-body{
+        width: 100%;
+    }
+    .div-img-about img{
+        height: 10px;
+    }
+    .goals-about{
+        margin-bottom: -80px;
+        width: 100%;
+        height: 700px;
+        width: 95%;
+        padding-bottom:0px ;
+    }
+
+    .About{ 
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
