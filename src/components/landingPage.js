@@ -7,7 +7,7 @@ const Landing = () =>{
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-12 text-side">
-                        <h2>Choose Your Foor <br/>Enjoy The Wonderful Tasty</h2>
+                        <h2>Choose Your Food <br/>Enjoy The Wonderful Tasty</h2>
                         <p>
                         The service and hospitality industries have a lot to gain from
                          adopting automation for communicating with customers or guests.

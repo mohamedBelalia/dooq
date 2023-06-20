@@ -23,7 +23,7 @@ const Advantages = () => {
                     <Fade right>
                     <div className="col-lg-4 col-md-6">
                     <img src="./images/mail.png" />
-                        <h3>Fre Returns</h3>
+                        <h3>Free Returns</h3>
                         <p>Qualified and certified physicians for quality medical care</p>
                     </div>
                     </Fade>
